@@ -27,9 +27,9 @@ namespace conleApp
 
             string jsonstring= JsonSerializer.Serialize(details);
 
-
-
             System.IO.File.WriteAllText("/home/duraiv/test.json",jsonstring);
+
+            Console.WriteLine("Completed");
 
 
         }
